@@ -1,0 +1,38 @@
+h1, h2, h3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+p, ul, li{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1{
+    background-color: blue;
+    font-style: italic; 
+    border-style: double; border-width: 1px; 
+}
+
+
+.personal{
+    border-style: dotted; border-width: 2px; border-color: blue;
+}
+
+.education{
+    border-style: dashed; border-width: 2px; border-color: green; 
+}
+
+.work{
+    border-style:inset; border-color: maroon;
+}
+
+.skills{
+    border-style: solid; border-color: grey;
+}
+
+.hobbies{
+    background-color: grey;
+    border-radius: 15px;
+    border-style:outset; border-bottom-color: red; border-bottom-style: dotted; 
+    border-top-color: green; border-left-color: blue; border-right-color:blue;
+    
+}
