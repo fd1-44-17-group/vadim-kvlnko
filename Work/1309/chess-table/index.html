@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chess Table</title>
+        <meta charset="UTF-8">
+        <!-- Не грузится, гадина такая <link href="/assets/styles.css" type="css" rel="stylesheet"> -->   
+   <style>
+             body{
+                 font-family: sans-serif;
+                 background-color: #eaeaea;
+             }
+             table{
+                 text-align: center;
+                 border: 1px solid;
+                 width: 500px;
+                 height: 500px;
+             }
+             td, tr, th{
+                 width: 50px;
+                 height: 50px;
+             }
+             .w-rook{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -104px -48px;
+             }
+             .w-knight{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -211px -48px;
+             }
+             .w-bishop{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -155px -48px;
+             }
+             .w-king{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: 4px -48px;
+             }
+             .w-queen{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -50px -48px;
+             }
+             .w-pawn{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -262px -48px;
+             }
+             .b-rook{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -104px 2px;
+             }
+             .b-knight{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -211px 2px;
+             }
+             .b-bishop{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -155px 2px;
+             }
+             .b-king{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: 4px 2px;
+             }
+             .b-queen{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -50px 2px;
+             }
+             .b-pawn{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -262px 2px;
+             }
+    </style>
+    </head>
+    <body>
+         <table id="chess_board">
+             <tr>
+                 <td></td>
+                 <td>A</td>
+                 <td>B</td>
+                 <td>C</td>
+                 <td>D</td>
+                 <td>E</td>
+                 <td>F</td>
+                 <td>G</td>
+                 <td>H</td>
+                 <td></td>
+             </tr>      
+             <tr>
+                 <td>1</td>
+                 <td bgcolor="white" class="w-rook"></td>
+                 <td bgcolor="#606060" class="w-knight"></td>
+                 <td bgcolor="white" class="w-bishop"></td>
+                 <td bgcolor="#606060" class="w-queen"></td>
+                 <td bgcolor="white" class="w-king"></div></td>
+                 <td bgcolor="#606060" class="w-bishop"></div></td>
+                 <td bgcolor="white" class="w-knight"></td>
+                 <td bgcolor="#606060" class="w-rook"></td>
+                 <td>1</td>
+             </tr>
+              <tr>
+                 <td>2</td>
+                 <td bgcolor="#606060" class="w-pawn"></td>
+                 <td bgcolor="white" class="w-pawn"></td>
+                 <td bgcolor="#606060" class="w-pawn"></td>
+                 <td bgcolor="white" class="w-pawn"></td>
+                 <td bgcolor="#606060" class="w-pawn"></td>
+                 <td bgcolor="white" class="w-pawn"></td>
+                 <td bgcolor="#606060" class="w-pawn"></td>
+                 <td bgcolor="white" class="w-pawn"></td>
+                 <td>2</td>
+             </tr>
+              <tr>
+                 <td>3</td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td>3</td>
+             </tr>
+              <tr>
+                 <td>4</td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td>4</td>
+             </tr>
+             <tr>
+                 <td>5</td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td>5</td>
+             </tr>
+              <tr>
+                 <td>6</td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td bgcolor="#606060"></td>
+                 <td bgcolor="white"></td>
+                 <td>6</td>
+             </tr>
+              <tr>
+                 <td>7</td>
+                 <td bgcolor="white" class="b-pawn"></td>
+                 <td bgcolor="#606060" class="b-pawn"></td>
+                 <td bgcolor="white" class="b-pawn"></td>
+                 <td bgcolor="#606060" class="b-pawn"></td>
+                 <td bgcolor="white" class="b-pawn"></td>
+                 <td bgcolor="#606060" class="b-pawn"></td>
+                 <td bgcolor="white" class="b-pawn"></td>
+                 <td bgcolor="#606060" class="b-pawn"></td>
+                 <td>7</td>
+             </tr>
+              <tr>
+                 <td>8</td>
+                 <td bgcolor="#606060" class="b-rook"></td>
+                 <td bgcolor="white" class="b-knight"></td>
+                 <td bgcolor="#606060" class="b-bishop"></td>
+                 <td bgcolor="white" class="b-queen"></td>
+                 <td bgcolor="#606060" class="b-king"></td>
+                 <td bgcolor="white" class="b-bishop"></td>
+                 <td bgcolor="#606060" class="b-knight"></td>
+                 <td bgcolor="white" class="b-rook"></td>
+                 <td>8</td>
+           <tr>
+                 <td></td>
+                 <td>A</td>
+                 <td>B</td>
+                 <td>C</td>
+                 <td>D</td>
+                 <td>E</td>
+                 <td>F</td>
+                 <td>G</td>
+                 <td>H</td>
+                 <td></td>
+             </tr>
+             
+             
+         </table>
+    </body>
+</html>

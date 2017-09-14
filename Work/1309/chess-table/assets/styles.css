@@ -1,0 +1,77 @@
+
+             body{
+                 font-family: sans-serif;
+                 background-color: #eaeaea;
+             }
+             table{
+                 text-align: center;
+                 border: 1px solid;
+                 empty-cells: show;
+                 width: 500px;
+                 height: 500px;
+             }
+             td, tr, th{
+                 width: 10px;
+                 height: 10px;
+                 border: 0px solid;
+             }
+             .w-rook{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -104px -50px;
+             }
+             .w-knight{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -208px -50px;
+             }
+             .w-bishop{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -155px -50px;
+             }
+             .w-king{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: 4px -50px;
+             }
+             .w-queen{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -48px -50px;
+             }
+             .w-pawn{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -262px -50px;
+             }
+             .b-rook{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -104px 0px;
+             }
+             .b-knight{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -208px 0px;
+             }
+             .b-bishop{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -155px 0px;
+             }
+             .b-king{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: 4px 0px;
+             }
+             .b-queen{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -48px 0px;
+             }
+             .b-pawn{
+              background-image: url("assets/img/chess.png");
+              background-repeat: no-repeat;
+              background-position: -262px 0px;
+             }
